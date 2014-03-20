@@ -10,7 +10,7 @@ class git::params {
       $global_credentialhelper = "${boxen::config::home}/bin/boxen-git-credential"
       $global_excludesfile = "${configdir}/gitignore"
 
-      $version = '1.8.4-boxen2'
+      $version = '1.9.1'
     }
 
     default: {
